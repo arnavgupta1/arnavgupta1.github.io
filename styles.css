@@ -1,0 +1,81 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav.navbar-nav li a {
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+}
+
+.bcd{
+  border-radius: 50%;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.acd{
+  border-radius: 50%;
+  max-width: 130px;
+  max-height: 85px;
+}
+
+img {
+  float: left;
+}
+
+.About-Baramdaa {
+  max-width: 500px;
+ max-height: 300px;
+}
+
+.box{
+	width:100px;
+	height:100px;
+}
+.green{
+	background: #07631C;
+  left: 812px; width: 410px; position: absolute; height: 105px; top: 810px;
+  opacity: 0.5;
+}
+
+div.abc{
+  background-color: #0B982B;
+}
+
+span.abc {
+  font-size: large;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-yelp{
+  background: #D32323;
+  color: white;
+}
+
+.a{
+  float:center;
+  margin: 100px;
+}
+
+.pho{
+  max-width: 50px;
+  max-height: 50px;
+}

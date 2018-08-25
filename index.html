@@ -1,1 +1,178 @@
-Hello World
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Baramdaa Events</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+  .navbar-default {
+    background-color: #FFFFFD;
+  }
+
+  .navbar-nav li a:hover {
+        background-color: #0B982B !important;
+        color: black;
+    }
+
+  .navbar li a, .navbar .navbar-brand {
+    color: black !important;
+    line-height: 100px;
+    height: 100px;
+    width: 100px;
+    padding-top: 0;
+  }
+
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+
+  .list-group-item:first-child {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+
+  .carousel-inner img{
+    width: 100%;
+  }
+
+  .carousel .item {
+  height: 700px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.container {
+    padding:250px;
+}
+
+.bg-1 {
+  background: #555C57;
+}
+
+.bg-2{
+  background: #2D2E2D;
+}
+
+.bg-3{
+  background: #555C57;
+}
+
+.container-fluid{
+  padding: 15px;
+}
+  </style>
+
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <div class="container-fluid">
+  </div>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <ul class="nav navbar-nav">
+      <a class="pull-left" href="#"><img src="baramdaaeventslogo.jpg" style="width:100px;height:100px;display: inline-block;""></a>
+    </div>
+    <ul class = "nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#packages">Packages</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" style="height: 700px; margin: 0 auto">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="rednyellowbackdrop.jpg" alt="Various backdrops" width="700" height="700">
+      </div>
+
+      <div class="item">
+        <img src="contactUsBaramdaa.jpg" alt="Flower arrangements" width="700" height="700">
+      </div>
+
+      <div class="item">
+        <img src="tablabackdrop.jpg" alt="Centerpieces" width="700" height="700">
+      </div>
+
+      <div class="item">
+        <img src="AboutUsBaramdaa.jpg" alt="Centerpieces" width="700" height="700">
+      </div>
+
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <div class="sr-only">Previous</div>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <div class="sr-only">Next</div>
+    </a>
+
+  </div>
+
+<div id = "about" class = "bg-1">
+  <div class = "container">
+  <h1 style="color: white; left: 920px; width: 256px; position: absolute; min-height: 153px; top: 810px;">About Baramdaa</h1>
+  <span style="color: #B6B8B5; left: 826px; width: 390px; position: absolute; min-height: 100px; top: 920px; font-size: large">Baramdaa Events is an event decoration service located in the San Francisco Bay Area. We include table, stage, prop, and lighting decoration according to your specifications, depending on your event.</span>
+  <span style="left: 166px; position: absolute; top: 775px;" height = "100" width = "100"><img src = "backdrop.png" ></span>
+</div>
+
+<div id = "packages" class = "bg-2">
+  <div class = "container">
+    <h1 style = "color: white; left: 630px; width: 256px; position: absolute; min-height: 153px; top: 1210px;">Packages</h1>
+    <span style ="left: 190px; width: 256px; position: absolute; min-height: 153px; top: 1330px;"><img src = "weddinglogo.jpeg"  class = "bcd"></span>
+    <h2 style ="color: #0B982B; left: 300px; width: 256px; position: absolute; min-height: 153px; top: 1322px;">Weddings</h2>
+    <span style ="left: 190px; width: 276px; position: absolute; min-height: 133px; top: 1420px;"><img src = "birthdaylogo.jpeg"  class = "acd"></span>
+    <h2 style ="color: #0B982B; left: 300px; width: 256px; position: absolute; min-height: 153px; top: 1420px;">Birthdays & Graduations</h2>
+    <span style ="left: 190px; width: 276px; position: absolute; min-height: 133px; top: 1530px;"><img src = "dancelogo.jpg"  class = "acd"></span>
+    <h2 style ="color: #0B982B; left: 290px; width: 256px; position: absolute; min-height: 153px; top: 1530px;">Dance Recitals</h2>
+    <span style ="left: 890px; width: 276px; position: absolute; min-height: 133px; top: 1315px;"><img src = "annlogo.jpg"  class = "acd"></span>
+    <h2 style ="color: #0B982B; left: 990px; width: 256px; position: absolute; min-height: 153px; top: 1322px;">Anniversaries</h2>
+    <span style ="left: 885px; width: 276px; position: absolute; min-height: 133px; top: 1420px;"><img src = "flowerlogo.jpg"  class = "acd"></span>
+    <h2 style ="color: #0B982B; left: 998px; width: 256px; position: absolute; min-height: 153px; top: 1425px;">Flower Arrangements</h2>
+    <span style ="left: 890px; width: 276px; position: absolute; min-height: 133px; top: 1530px;"><img src = "morelogo.jpeg"  class = "acd"></span>
+    <h2 style ="color: #0B982B; left: 990px; width: 256px; position: absolute; min-height: 153px; top: 1530px;">And More!</h2>
+  </div>
+</div>
+
+  <div id="contact" class = "bg-3">
+    <div class="container-fluid">
+      <a href="https://www.facebook.com/baramdaa/" target = "_blank" class="fa fa-facebook"></a>
+      <a href="https://www.yelp.com/biz/baramdaa-events-los-altos" target = "_blank" class="fa fa-yelp"></a>
+      <span style = "left: 1170px; width: 41px; position: absolute; min-height: 41px; top: 1715px;"><img src = "phonelogo.png"></span>
+      <h3 style = "color: black; left: 1215px; position: absolute; top: 1705px;">: (408)-218-4747</h3>
+    </div>
+  </div>
+</div>
+</html>
